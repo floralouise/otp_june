@@ -1,5 +1,7 @@
-## Notes on the OTP Class
+## OTP Class
 - theme of the class is Construct reduce convert
+
+# Wed, June 21: am
 
 ### Pipes
 
@@ -75,3 +77,11 @@ Capitalization rules:
 - uppercase atoms don't
   - [Uffda, Yall]
 
+
+# Wed, June 21: pm
+- top of pipe: constructor
+  - builds something that is convenient for computation.
+- middle of pipe: reducer
+  - takes an input and returns an output of the same type
+- bottom of pipe: converter
+  - takes something and turns it into something for a consumer (or other user) to use
