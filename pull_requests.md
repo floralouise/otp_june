@@ -2,3 +2,4 @@
 - Bryan Green
 - Stephanie Wood
 - Savannah Manning
+- Flora Petterson
