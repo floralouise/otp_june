@@ -9,7 +9,10 @@ defmodule Numble.Application do
   def start(_type, _args) do
     children = [
       # Starts a worker by calling: Numble.Worker.start_link(arg)
-      # {Numble.Worker, arg}
+      {Numble.Server, :groot},
+      {Numble.Server, :prof_x},
+      {Numble.Server, :scarlet_witch},
+      {Numble.Server, :wonder_woman},
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
